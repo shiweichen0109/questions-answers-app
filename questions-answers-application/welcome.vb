@@ -44,4 +44,8 @@ Public Class welcome
 
         End If
     End Sub
+
+    Private Sub ShowAnswerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ShowAnswerToolStripMenuItem.Click
+
+    End Sub
 End Class
