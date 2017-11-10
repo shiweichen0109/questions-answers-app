@@ -78,6 +78,12 @@
     <Compile Include="AnswerForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CreateAnswer.Designer.vb">
+      <DependentUpon>CreateAnswer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAnswer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CreateQuestion.Designer.vb">
       <DependentUpon>CreateQuestion.vb</DependentUpon>
     </Compile>
@@ -89,6 +95,12 @@
       <DependentUpon>ScoresForm.vb</DependentUpon>
     </Compile>
     <Compile Include="ScoresForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAnswer.Designer.vb">
+      <DependentUpon>UpdateAnswer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAnswer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UpdateQuestion.Designer.vb">
@@ -124,6 +136,9 @@
     <EmbeddedResource Include="AnswerForm.resx">
       <DependentUpon>AnswerForm.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CreateAnswer.resx">
+      <DependentUpon>CreateAnswer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateQuestion.resx">
       <DependentUpon>CreateQuestion.vb</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ScoresForm.resx">
       <DependentUpon>ScoresForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAnswer.resx">
+      <DependentUpon>UpdateAnswer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateQuestion.resx">
       <DependentUpon>UpdateQuestion.vb</DependentUpon>

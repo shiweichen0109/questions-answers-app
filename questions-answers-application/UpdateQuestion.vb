@@ -19,4 +19,8 @@
         db.execute()
         Me.Dispose()
     End Sub
+
+    Private Sub tbUpdateQuestion_TextChanged(sender As Object, e As EventArgs) Handles tbUpdateQuestion.TextChanged
+
+    End Sub
 End Class
