@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class CreateAnswer
+Partial Class CreateAnswers
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -28,31 +28,31 @@ Partial Class CreateAnswer
         '
         'tbAnswer
         '
-        Me.tbAnswer.Location = New System.Drawing.Point(23, 12)
+        Me.tbAnswer.Location = New System.Drawing.Point(24, 23)
         Me.tbAnswer.Multiline = True
         Me.tbAnswer.Name = "tbAnswer"
-        Me.tbAnswer.Size = New System.Drawing.Size(546, 208)
+        Me.tbAnswer.Size = New System.Drawing.Size(610, 243)
         Me.tbAnswer.TabIndex = 1
         '
         'btnAnswerSubmit
         '
         Me.btnAnswerSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAnswerSubmit.Location = New System.Drawing.Point(23, 236)
+        Me.btnAnswerSubmit.Location = New System.Drawing.Point(24, 282)
         Me.btnAnswerSubmit.Name = "btnAnswerSubmit"
-        Me.btnAnswerSubmit.Size = New System.Drawing.Size(546, 107)
+        Me.btnAnswerSubmit.Size = New System.Drawing.Size(610, 107)
         Me.btnAnswerSubmit.TabIndex = 2
         Me.btnAnswerSubmit.Text = "Submit"
         Me.btnAnswerSubmit.UseVisualStyleBackColor = True
         '
-        'CreateAnswer
+        'CreateAnswers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(584, 363)
+        Me.ClientSize = New System.Drawing.Size(664, 430)
         Me.Controls.Add(Me.btnAnswerSubmit)
         Me.Controls.Add(Me.tbAnswer)
-        Me.Name = "CreateAnswer"
-        Me.Text = "CreateAnswer"
+        Me.Name = "CreateAnswers"
+        Me.Text = "CreateAnswers"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

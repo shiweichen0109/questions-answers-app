@@ -72,16 +72,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnswerForm.Designer.vb">
-      <DependentUpon>AnswerForm.vb</DependentUpon>
+    <Compile Include="CreateAnswers.Designer.vb">
+      <DependentUpon>CreateAnswers.vb</DependentUpon>
     </Compile>
-    <Compile Include="AnswerForm.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CreateAnswer.Designer.vb">
-      <DependentUpon>CreateAnswer.vb</DependentUpon>
-    </Compile>
-    <Compile Include="CreateAnswer.vb">
+    <Compile Include="CreateAnswers.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CreateQuestion.Designer.vb">
@@ -91,16 +85,22 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="db.vb" />
-    <Compile Include="ScoresForm.Designer.vb">
-      <DependentUpon>ScoresForm.vb</DependentUpon>
+    <Compile Include="DeleteAnswer.Designer.vb">
+      <DependentUpon>DeleteAnswer.vb</DependentUpon>
     </Compile>
-    <Compile Include="ScoresForm.vb">
+    <Compile Include="DeleteAnswer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateAnswer.Designer.vb">
-      <DependentUpon>UpdateAnswer.vb</DependentUpon>
+    <Compile Include="ShowAnswers.Designer.vb">
+      <DependentUpon>ShowAnswers.vb</DependentUpon>
     </Compile>
-    <Compile Include="UpdateAnswer.vb">
+    <Compile Include="ShowAnswers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAnswers.Designer.vb">
+      <DependentUpon>UpdateAnswers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAnswers.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UpdateQuestion.Designer.vb">
@@ -133,14 +133,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AnswerForm.resx">
-      <DependentUpon>AnswerForm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CreateAnswer.resx">
-      <DependentUpon>CreateAnswer.vb</DependentUpon>
+    <EmbeddedResource Include="CreateAnswers.resx">
+      <DependentUpon>CreateAnswers.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreateQuestion.resx">
       <DependentUpon>CreateQuestion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteAnswer.resx">
+      <DependentUpon>DeleteAnswer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -148,11 +148,11 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ScoresForm.resx">
-      <DependentUpon>ScoresForm.vb</DependentUpon>
+    <EmbeddedResource Include="ShowAnswers.resx">
+      <DependentUpon>ShowAnswers.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateAnswer.resx">
-      <DependentUpon>UpdateAnswer.vb</DependentUpon>
+    <EmbeddedResource Include="UpdateAnswers.resx">
+      <DependentUpon>UpdateAnswers.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateQuestion.resx">
       <DependentUpon>UpdateQuestion.vb</DependentUpon>
